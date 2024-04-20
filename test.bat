@@ -101,7 +101,7 @@ echo ^.
 ::timeout /t %randomNumber% > nul 
 
 ::1秒执行一次
-timeout /t 10 > nul 
+timeout /t 180 > nul
 
 
 ::循环执行
