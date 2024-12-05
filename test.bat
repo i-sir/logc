@@ -1,6 +1,6 @@
 @echo off
 setlocal enabledelayedexpansion
-
+title 执行log-c提交github任务
 
 
 ::删除之前的记录
