@@ -45,7 +45,7 @@ if errorlevel 1 (
 call :SHOW_MESSAGE "已执行完成 %CD%"
 
 ::获取20-120随机数
-set /a randomNumber=5+%RANDOM% %% 60 
+set /a randomNumber=50+%RANDOM% %% 600
 call :SHOW_MESSAGE "随机数为:%randomNumber%"
 
 ::隔随机(5-60)秒执行一次
